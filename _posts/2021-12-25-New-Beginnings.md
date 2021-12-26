@@ -8,5 +8,4 @@ tags:
   - update
 ---
 
-Hello world. This website will serve as a gateway to my random musics whenever I find something interesting worth sharing here and the time to share. 
-
+Hello world. This website will serve as a gateway to my not so random activities that I find worth sharing and find the time to share. Stay tuned!
