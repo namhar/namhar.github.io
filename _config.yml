@@ -61,7 +61,7 @@ author:
   bio    : "Not-so-Random musings of a biomedical engineer gone rogue"
   links:
     - label: "LinkedIn"
-      icon: "fas fa-fw fa-linkedin"
+      icon: "fab fa-linkedin-in"
       url: "https://www.linkedin.com/in/farrukh-rahman/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
@@ -69,21 +69,20 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/namhar"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+
 
 footer:
   links:
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin-in"
+      url: "https://www.linkedin.com/in/farrukh-rahman/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/VenerableSpace"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/namhar"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+
 
 defaults:
   # _posts
