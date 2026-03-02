@@ -1,0 +1,269 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #111;
+  background: #fff;
+  line-height: 1.75;
+  padding: 0 1.25rem;
+}
+
+.container {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.site-header {
+  padding: 1.25rem 0;
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid #e8e8e8;
+}
+.site-header nav {
+  display: flex;
+  align-items: baseline;
+  gap: 1.5rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.9rem;
+}
+.site-header .site-title {
+  font-weight: 600;
+  color: #111;
+  text-decoration: none;
+  margin-right: auto;
+}
+.site-header .site-title:hover {
+  text-decoration: underline;
+}
+.site-header nav a {
+  color: #666;
+  text-decoration: none;
+}
+.site-header nav a:hover {
+  color: #111;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  line-height: 1.3;
+  margin: 1.75rem 0 0.6rem;
+  color: #111;
+}
+
+h1 {
+  font-size: 1.75rem;
+}
+
+h2 {
+  font-size: 1.35rem;
+}
+
+h3 {
+  font-size: 1.1rem;
+}
+
+p {
+  margin-bottom: 1.1rem;
+}
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+ul, ol {
+  margin: 0 0 1.1rem 1.5rem;
+}
+ul li, ol li {
+  margin-bottom: 0.25rem;
+}
+
+blockquote {
+  border-left: 3px solid #e8e8e8;
+  padding-left: 1rem;
+  margin: 1.25rem 0;
+  color: #666;
+  font-style: italic;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #e8e8e8;
+  margin: 2rem 0;
+}
+
+code {
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  font-size: 0.82em;
+  background: #f6f8fa;
+  padding: 0.15em 0.35em;
+  border-radius: 3px;
+  border: 1px solid #e1e4e8;
+}
+
+pre {
+  background: #f6f8fa;
+  border: 1px solid #e8e8e8;
+  border-radius: 4px;
+  padding: 1rem 1.25rem;
+  overflow-x: auto;
+  margin-bottom: 1.25rem;
+  line-height: 1.5;
+}
+pre code {
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: 0.8rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1.75rem auto;
+  border-radius: 4px;
+}
+
+.tagline {
+  color: #666;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.95rem;
+  margin-bottom: 2rem;
+}
+
+.post-list {
+  list-style: none;
+  margin: 0;
+}
+.post-list li {
+  display: flex;
+  gap: 1.25rem;
+  align-items: baseline;
+  padding: 0.3rem 0;
+}
+.post-list .date {
+  color: #666;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.82rem;
+  white-space: nowrap;
+  min-width: 95px;
+}
+.post-list a {
+  color: #111;
+}
+.post-list a:hover {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.post-header, .page-header {
+  margin-bottom: 2rem;
+}
+.post-header h1, .page-header h1 {
+  margin-top: 0;
+}
+.post-header .post-date, .page-header .post-date {
+  display: block;
+  color: #666;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.85rem;
+  margin-top: 0.3rem;
+}
+
+.site-footer {
+  margin-top: 3.5rem;
+  padding: 1.5rem 0 2rem;
+  border-top: 1px solid #e8e8e8;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.82rem;
+  color: #666;
+}
+.site-footer .footer-links {
+  display: flex;
+  gap: 1.25rem;
+}
+.site-footer a {
+  color: #666;
+  text-decoration: none;
+}
+.site-footer a:hover {
+  color: #111;
+}
+
+.bio-photo {
+  float: right;
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin: 0.25rem 0 1.25rem 2rem;
+}
+
+.katex-display {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.highlight .c, .highlight .ch, .highlight .cm, .highlight .c1, .highlight .cs {
+  color: #6a737d;
+  font-style: italic;
+}
+.highlight .k, .highlight .kc, .highlight .kd, .highlight .kn, .highlight .kr {
+  color: #d73a49;
+}
+.highlight .o, .highlight .ow {
+  color: #d73a49;
+}
+.highlight .s, .highlight .sb, .highlight .sc, .highlight .s2, .highlight .s1 {
+  color: #032f62;
+}
+.highlight .sd {
+  color: #6a737d;
+  font-style: italic;
+}
+.highlight .mi, .highlight .mf, .highlight .mh, .highlight .mo {
+  color: #005cc5;
+}
+.highlight .nb {
+  color: #005cc5;
+}
+.highlight .nc, .highlight .nd, .highlight .nf {
+  color: #6f42c1;
+}
+.highlight .err {
+  color: #cb2431;
+}
+
+@media (max-width: 640px) {
+  html {
+    font-size: 16px;
+  }
+  .post-list li {
+    flex-direction: column;
+    gap: 0.1rem;
+    padding: 0.5rem 0;
+  }
+  .post-list .date {
+    min-width: auto;
+  }
+  .bio-photo {
+    float: none;
+    width: 110px;
+    height: 110px;
+    margin: 0 auto 1.5rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
